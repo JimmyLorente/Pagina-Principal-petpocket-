@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: cursive;
+    font-family: 'Dela Gothic One', cursive;
     border-bottom: 4px solid yellow;
 }
 
@@ -55,11 +55,4 @@ body{
     width: 50px;
     vertical-align: middle;
     margin-left: 40px;
-}
-.boton{
-    color: rgb(0, 0, 0);
-    background: none;
-    border: none;
-    font-size: 30px;
-    padding: 0 20px;
 }
