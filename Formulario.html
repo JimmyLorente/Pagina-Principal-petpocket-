@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="español">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Registro Mascota</title>
+</head>
+<body>
+<form class="frase">
+
+    <input class="titulo" type="text" name="frase" id="frase" placeholder="Frase que describa a tu mascota">
+
+</form>
+    <section class="forma">
+        <!--Aqui van los datos de la mascota-->
+        <p> Nombre de tu mascota </p>
+        <input class="controles" type="text" name="Nombre" id="nombre" placeholder=" Nombre de tu mascota " required autofocus>
+
+        <p> Edad de tu Mascota </p>
+        <input class="controles" type="text" name="Edad" id="edad" placeholder="Ingresa la edad" required>
+
+        <p> Raza de tu Mascota </p>
+        <input class="controles" type="text" name="Raza" id="raza" placeholder="Ingresa la raza" required>
+        <input class="opciones" type="radio" name="raza-mascota" id="raza" value="Raza">
+        <label class="opciones" for="raza"> Nose </label> <br>
+
+        <p class="genero"> Genero de tu mascota </p>
+        <input class="opciones" type="radio" name="genero-mascota" id="macho" value="Macho">
+        <label class="opciones" for="Macho"> Macho </label> 
+        <input class="opciones"type="radio" name="genero-mascota" id="hembra" value="Hembra">
+        <label class="opciones" for="hembra"> Hembra </label> 
+        <input class="opciones"type="radio" name="genero-mascota" id="nada" value="Nada">
+        <label class="opciones" for="nada"> Helicoptero apache :D </label> <br>
+
+        <input class="controles" type="text" name="dueño" id="dueño" placeholder="Nombre del dueño" required> 
+<!--Aqui se termina-->
+    </section>
+    
+</body>
+</html>
